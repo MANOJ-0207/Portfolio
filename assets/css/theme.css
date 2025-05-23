@@ -1,0 +1,105 @@
+/* ====================
+   Theme Toggle Button
+   ==================== */
+#theme-toggle {
+  background: none;
+  border: none;
+  color: #c9d1d9;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#theme-toggle:hover {
+  color: #58a6ff;
+}
+
+
+/* ====================
+   Theme Styles - Light
+   ==================== */
+body.light-theme {
+  background: linear-gradient(135deg, #f5f5f5, #d0e0f0);
+  color: #111;
+}
+
+body.light-theme h1,
+body.light-theme h2,
+body.light-theme h3,
+body.light-theme .main-intro {
+  color: #003366;
+}
+
+body.light-theme nav a {
+  color: #111;
+}
+
+body.light-theme nav a.active,
+body.light-theme nav a:hover {
+  color: #0077cc;
+}
+
+body.light-theme #navbar {
+  background: #fff;
+}
+
+body.light-theme #theme-toggle {
+  color: #111;
+}
+
+body.light-theme .certificate-link {
+  border-color: #0077cc;
+  color: #004080;
+}
+
+body.light-theme .certificate-link:hover {
+  background-color: #e6f1ff;
+  border-color: #005bb5;
+  color: #003366;
+}
+
+body.light-theme .certification-card,
+body.light-theme .knowledge-matrix .box,
+body.light-theme .quadrant,
+body.light-theme .social-card,
+body.light-theme .timeline-content {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  color: #111;
+}
+
+body.light-theme .certification-card h3,
+body.light-theme .certification-card p,
+body.light-theme .knowledge-matrix .box h3,
+body.light-theme .knowledge-matrix .box p,
+body.light-theme .quadrant h3,
+body.light-theme .quadrant p,
+body.light-theme .timeline-details li,
+body.light-theme .timeline-duration,
+body.light-theme .timeline-organization,
+body.light-theme .timeline-title {
+  color: #004080;
+}
+
+body.light-theme .highlight {
+  background-color: #d0e7ff;
+  border-color: #0077cc;
+  color: #003366;
+}
+
+body.light-theme .intro-achievements,
+body.light-theme .timeline-details,
+body.light-theme li,
+body.light-theme p {
+  color: #1a3d6d;
+}
+
+body.light-theme .intro-subtitle,
+body.light-theme #home .intro-text {
+  color: #004080;
+}
+
+body.light-theme .timeline-dot {
+  border: 4px solid #ffffff;
+}

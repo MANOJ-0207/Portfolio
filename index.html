@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manoj's Portfolio</title>
+  <link rel="icon" href="assets/images/MK.jpg" id="favicon" type="image/jpeg" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+  <header id="navbar">
+    <div class="logo">
+      <img src="assets/images/MK.jpg" alt="Avatar" class="avatar" id="logoImg"/>
+    </div>
+    <button id="hamburger" class="hamburger" aria-label="Toggle navigation">
+      &#9776;
+    </button>
+    <nav>
+      <a href="#home" class="nav-link active">main()</a>
+      <a href="#experience" class="nav-link">getExperience()</a>
+      <a href="#skills" class="nav-link">getSkills()</a>
+      <a href="#certifications" class="nav-link">view_certifications()</a>
+      <a href="#socials" class="nav-link">reach_out()</a>
+    </nav>
+  </header>
+
+  <section id="home" class="section intro">
+    <div class="intro-text">
+      <h1 class="main-intro">Hello! I'm Manoj Kumar G</h1>
+      <div id="typed-output"></div>
+  
+      <div class="intro-details">
+        <p class="intro-subtitle">Software Developer at UST Global | Open Source Contributor</p>
+        <p class="intro-achievements">
+          Ranked in the top 10% on LeetCode, 3-star on GeeksforGeeks and CodeChef
+        </p>
+        <p class="intro-achievements">
+          1st ranker in Institutional Level Coding Contest
+        </p>
+        <!-- Contact Details -->
+        <div class="contact-details">
+          <p><strong>E-mail:</strong> <a href="https://mail.google.com/mail/?view=cm&to=manojkumar02072003@gmail.com">manojkumar02072003@gmail.com</a></p>
+          <p><strong>Mobile:</strong> <a href="tel:+91 9597636633">+91 9597636633</a></p>
+        </div>
+      </div>
+    </div>
+    <img src="assets/images/Profile2.jpg" alt="Your Photo" class="hero-img" id="profile-img"/>
+  </section>
+  
+
+  <section id="experience" class="section">
+    <h2 class="main-intro">Experience</h2>
+    <h3>My Journey Timeline</h3>
+    <div class="timeline">
+      <!-- <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3 class="timeline-title">Software Developer</h3>
+          <a href="https://www.ust.com/" target="_blank" class="timeline-organization">UST Global</a>
+          <p class="timeline-duration">August 2024 - Present</p>
+          <ul class="timeline-details">
+            <li>Created Java utility classes for data fetching, JSON parsing in AEM stack.</li>
+            <li>Built and deployed training projects using Spring Boot.</li>
+            <li>Developed scalable REST APIs with Spring MVC and Spring Data JPA.</li>
+            <li>Implemented pagination, sorting, and database interactions efficiently.</li>
+            <li>Integrated JWT authentication for securing APIs.</li>
+          </ul>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2 title="My Skills grouped by awareness and experience" class="main-intro">Skills</h2>
+    <table class="the-matrix">
+      <tr>
+        <th class="matrix-cell matrix-main"><div>My Knowledge Matrix</div></th>
+        <th class="matrix-titles">Known</th>
+        <th class="matrix-titles">Unknown</th>
+      </tr>
+      <tr>
+        <th class="matrix-titles rowHeader">Known</th>
+  
+        <!-- ✅ Known - Known -->
+        <td class="quadrant" id="knownKnown">
+          <h3 title="Skills I know well and use frequently">✅ Known - Known</h3>
+          <p id="kk" title="These are technologies I'm highly proficient in">Known and Well practiced stuff</p>
+          <div class="tech-icons">
+            <!-- <div title="DSA - Data Structures and Algorithms" class="tech-link">
+              <img src="assets/images/DSA.jpg" alt="DSA" class="dsa" />
+            </div> -->
+          </div>
+        </td>
+  
+        <!-- 💡 Known - Unknown -->
+        <td class="quadrant" id="knownUnknown">
+          <h3 title="Skills I know conceptually but haven't used much">💡 Known - Unknown</h3>
+          <p id="ku" title="These are technologies I'm familiar with but need more hands-on experience">Known stuff with minimal practice :</p>
+          <div class="tech-icons">
+            <!-- <div title="Docker - Containerization Platform" class="tech-link">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" />
+            </div> -->
+          </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <th class="matrix-titles rowHeader">Unknown</th>
+        <td class="quadrant" id="unknownKnown">
+          <h3 title="Skills I'm naturally good at even without realizing">🧠 Unknown - Known</h3>
+          <p id="uk" title="Skills I’ve picked up naturally over time">Things that I am good at even without realizing</p>
+          <div class="tech-icons">
+            <!-- <div title="Git - Version Control" class="tech-link">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" />
+            </div> -->
+          </div>
+        </td>
+  
+        <!-- ❓ Unknown - Unknown -->
+        <td class="quadrant" id="unknownUnknown">
+          <h3 title="Areas I haven't explored yet">❓ Unknown - Unknown</h3>
+          <p id="mystery-title" title="These are completely new domains or tools I want to explore">Still to be explored... Rest of the technologies</p>
+          <img src="assets/images/Mystery.avif" alt="Unknown" class="mystery-image" title="Lot more to be explored" />
+        </td>
+      </tr>
+    </table>
+  </section>
+  
+
+  <section id="certifications" class="section">
+    <h2 class="main-intro">Certifications</h2>
+    <div class="certification-grid">
+  
+      <!-- <div class="certification-card">
+        <h3>Udemy - Docker & Kubernetes</h3>
+        <div class="tech-icons">
+          <div title="Docker - Containerization Platform" class="tech-link">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" />
+          </div>
+          <div title="Kubernetes - Container Orchestration" class="tech-link">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" />
+          </div>
+          <div title="Cloud Services - AWS" class="tech-link">
+            <img src="https://img.icons8.com/fluency/48/cloud.png" alt="Cloud Services" />
+          </div>
+        </div>
+        <p>Certified on Feb 2025</p>
+      </div> -->
+
+
+    </div>
+    <div id="toggle-certificates-btn" class="view-toggle-btn">View All Certifications...</div>
+  </section>
+  
+
+<section id="socials" class="section">
+  <h2 class="main-intro">More about me</h2>
+  <p class="profiles-text">My Profiles</p>
+
+  <div class="social-grid">
+    <!-- <a href="mailto:manojkumar02072003@gmail.com" class="social-card tooltip" data-tooltip="Email" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.icons8.com/ios-filled/50/4e88ff/apple-mail.png" alt="Email">
+    </a> -->
+  </div>
+  <footer>
+    <p>Copyright &copy; 2025 Manoj Kumar G | All rights reserved.</p>
+  </footer>
+</section>
+
+
+
+
+
+  <script>
+    new Typed('#typed-output', {
+      strings: ['Java Fullstack Developer from India...'],
+      typeSpeed: 50,
+      backSpeed: 30,
+      backDelay: 1000,
+      loop: true
+    });
+  </script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
+

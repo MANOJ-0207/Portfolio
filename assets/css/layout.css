@@ -1,0 +1,23 @@
+/* ====================
+   Layout & Structure
+   ==================== */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+  padding: 1rem 2rem;
+  transition: padding 0.3s ease;
+}
+
+.section {
+  max-width: 85%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

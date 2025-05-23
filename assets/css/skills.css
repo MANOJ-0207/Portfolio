@@ -1,0 +1,231 @@
+/* ====================
+     Skills Section
+   ==================== */
+#skills {
+  padding-top: 5px;
+}
+
+.knowledge-matrix {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.knowledge-matrix .box {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.knowledge-matrix .box:hover {
+  box-shadow: 0 0 12px rgba(88, 166, 255, 0.3);
+  transform: translateY(-5px);
+}
+
+.knowledge-matrix h3,
+.quadrant h3 {
+  color: #f0f6fc;
+  margin-top: 0;
+}
+
+/* ====================
+     Quadrant Matrix
+   ==================== */
+.matrix-cell,
+.matrix-titles {
+  border: 2px solid #58a6ff;
+}
+
+.matrix-cell {
+  border-top-left-radius: 10px;
+}
+
+.matrix-cell:hover,
+.matrix-titles:hover,
+.quadrant:hover {
+  border-color: #77b6ff;
+  box-shadow: 0 0 12px rgba(88, 166, 255, 0.3);
+  transform: translateY(-2px);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.outer-box {
+  border: 3px solid #999;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 30px auto 0;
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 50px;
+  position: relative;
+}
+
+.left-labels {
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  left: 0;
+  padding: 10px 0;
+  position: absolute;
+  top: 50px;
+  transform: translateX(-100%);
+}
+
+.top-labels {
+  display: flex;
+  justify-content: space-between;
+  left: 50px;
+  padding: 0 10px;
+  position: absolute;
+  right: 50px;
+  top: 0;
+  transform: translateY(-100%);
+}
+
+.quadrant {
+  background-color: #161b22;
+  border: 2px solid #58a6ff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  min-height: 170px;
+  padding: 1rem 1rem 3rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  vertical-align: top;
+}
+
+.quadrant p {
+  color: #8b949e;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.quadrant-grid {
+  border-radius: 10px;
+  display: grid;
+  gap: 0.2rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 2rem auto 0;
+  max-width: 100%;
+  padding: 26px;
+}
+
+#unknownUnknown {
+  border-bottom-right-radius: 10px;
+}
+
+/* ====================
+     Responsive Styles
+   ==================== */
+@media (max-width: 768px) {
+  .outer-box {
+    margin-top: 80px;
+    padding: 30px;
+  }
+
+  .hero-img {
+    height: 80vw;
+    margin-top: 50px;
+    width: 80vw;
+  }
+
+  .profiles-text {
+    font-size: 26px;
+  }
+
+  .left-labels,
+  .top-labels {
+    left: 0;
+    margin-bottom: 10px;
+    padding: 5px;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: -70px;
+    transform: none;
+    width: 100%;
+  }
+
+  .left-labels,
+  .top-labels {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+/* ====================
+     Tech Icons
+   ==================== */
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.tech-icons img{
+  height : 30px;
+  width : 30px;
+  transition: filter 0.3s ease, transform 0.4s ease;
+}
+.certification-card .tech-icons div,
+.certification-card .tech-icons img {
+  height: 35px;
+  transition: filter 0.3s ease, transform 0.4s ease;
+  width: 35px;
+}
+
+.tech-icons div:hover img {
+  filter: drop-shadow(0 0 5px #58a6ff);
+  transform: scale(1.3);
+}
+
+.tech-icons img {
+  border-radius: 10px;
+}
+
+.tech-icons img[alt="Mystery"] {
+  animation: bounce 1.8s infinite;
+}
+
+/* Certificate Section Tech Icons */
+.certification-card .tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.certification-card .tech-icons img {
+  height: 30px;
+  object-fit: contain;
+  width: 30px;
+}
+
+/* ====================
+     Mystery Elements
+   ==================== */
+.mystery-image {
+  animation: pulse 1.5s infinite ease-in-out;
+  border-radius: 17px;
+  display: block;
+  height: 100px;
+  margin: 0 auto;
+  max-width: 100%;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  width: 170px;
+}
+
+.mystery-image:hover {
+  animation: none;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+  transform: scale(0.9);
+}
+
+#mystery-title {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}

@@ -1,0 +1,58 @@
+/* ====================
+   Navigation Styles
+   ==================== */
+
+.hamburger {
+  background: none;
+  border: none;
+  color: #c9d1d9;
+  cursor: pointer;
+  display: none;
+  font-size: 2rem;
+}
+
+.logo .avatar {
+  border-radius: 50%;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
+nav a {
+  color: #c9d1d9;
+  font-family: 'Fira Code', 'Consolas', 'Courier New', monospace;
+  margin-left: 1.5rem;
+  padding: 0.5rem 1rem;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a::after {
+  background-color: #58a6ff;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+
+nav a:hover,
+nav a.active {
+  color: #58a6ff;
+  transform: scale(1.07);
+}
+
+nav a:hover::after,
+nav a.active::after {
+  transform: scaleX(1);
+}
+
+.profiles-text {
+  color: #8b949e;
+  text-align: center;
+}
