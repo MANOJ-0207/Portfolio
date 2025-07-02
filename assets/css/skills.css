@@ -154,6 +154,12 @@
     flex-direction: row;
     justify-content: space-around;
   }
+
+  .tech-icons img{
+    height : 30px;
+    width : 30px;
+    transition: filter 0.3s ease, transform 0.4s ease;
+  }
 }
 
 /* ====================
@@ -167,8 +173,8 @@
 }
 
 .tech-icons img{
-  height : 30px;
-  width : 30px;
+  height : 35px;
+  width : 35px;
   transition: filter 0.3s ease, transform 0.4s ease;
 }
 .certification-card .tech-icons div,

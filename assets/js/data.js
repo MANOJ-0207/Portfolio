@@ -422,7 +422,7 @@ function populateSkills(skills) {
   Object.keys(skillQuadrants).forEach(category => {
     skills[category].forEach(skill => {
       const div = document.createElement('div');
-      div.className = 'tech-link';
+      div.className = 'tech-icons';
       div.title = skill.title;
 
       const img = document.createElement('img');
