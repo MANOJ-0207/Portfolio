@@ -33,6 +33,7 @@ const data = {
       { title: "Flutter - UI Toolkit for Applications", src: "assets/images/Flutter.png", alt: "Flutter" },
       { title: "Node.js - JavaScript runtime", src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg", alt: "Node.js" },
       { title: "Express - Web framework for Node.js", src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg", alt: "Express" },
+      { title: "Electron JS - Desktop App Framework", src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg", alt: "Electron JS"},
       { title: "MongoDB - NoSQL Database", src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg", alt: "MongoDB" }
     ],
     unknownKnown: [
