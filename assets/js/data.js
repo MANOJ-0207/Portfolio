@@ -215,6 +215,43 @@ const data = {
 
   certificates: [
     {
+      name: "Udemy - SpringBoot - Apache Kafka",
+      icons: [
+        {
+          title: "Java - Core language expertise",
+          src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+          alt: "Java",
+        },
+        {
+          title: "Kafka - Distributed Event Streaming Platform",
+          src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg",
+          alt: "Kafka",
+        },
+        {
+          title: "Spring Boot - Java Framework",
+          src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg",
+          alt: "Spring",
+        },
+        {
+          title: "JPA - Java Persistence API",
+          src: "assets/images/JPA.png",
+          alt: "JPA",
+        },
+        {
+          title: "Maven - Build Automation Tool",
+          src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/maven/maven-original.svg",
+          alt: "Maven",
+        },
+        {
+          title: "PostgreSQL - Advanced Relational Database",
+          src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
+          alt: "PostgreSQL",
+        }
+      ],
+      date: "May 2025",
+      url: "https://drive.google.com/file/d/1T51Kcx4_xqp88JrgMAlzFMZ8eywqHXBq/view?usp=sharing",
+    },
+    {
       name: "Udemy - Apache Kafka for Beginners",
       icons: [
         {
@@ -229,7 +266,7 @@ const data = {
         },
       ],
       date: "May 2025",
-      url: "assets/certificates/Apache Kafka Beginners Course Certificate.pdf",
+      url: "https://drive.google.com/file/d/1yIJYO1Z1jvpUtYxPPdYDFNyI7ku5692T/view?usp=sharing",
     },
     {
       name: "Udemy - Docker & Kubernetes",
@@ -251,7 +288,7 @@ const data = {
         },
       ],
       date: "Feb 2025",
-      url: "assets/certificates/Docker & Kubernetes Certificate.pdf",
+      url: "https://drive.google.com/file/d/1Sne8y54xjJMbYf9bWmqT1HZSUZcua2H3/view?usp=sharing",
     },
     {
       name: "Udemy - Low Level System Design Patterns & SOLID Principles",
@@ -268,7 +305,7 @@ const data = {
         },
       ],
       date: "Jan 2025",
-      url: "assets/certificates/Low Level Design Certificate.pdf",
+      url: "https://drive.google.com/file/d/1sfVcIf8aUXm4g7gpjHrchjPobjzo13b0/view?usp=sharing",
     },
     {
       name: "Udemy - MongoDB - the Complete developer's Guide - 2024",
@@ -280,7 +317,7 @@ const data = {
         },
       ],
       date: "Jan 2025",
-      url: "assets/certificates/MongoDB Certificate.pdf",
+      url: "https://drive.google.com/file/d/1SM8ZYO6V7Iw14PkcKvdG2UPPG1mVa8BE/view?usp=sharing",
     },
     {
       name: "Udemy - Flutter & Dart - The Complete Guide 2024 - 2024",
@@ -297,7 +334,7 @@ const data = {
         },
       ],
       date: "Dec 2024",
-      url: "assets/certificates/Flutter & Dart Certificate.pdf",
+      url: "https://drive.google.com/file/d/1NZH8NAn7978CX3E4sOiRQV_9es9XnC0b/view?usp=sharing",
     },
     {
       name: "Udemy - Java Spring Framework 6 with SpringBoot 3",
@@ -344,7 +381,7 @@ const data = {
         },
       ],
       date: "Nov 2024",
-      url: "assets/certificates/Java Spring Certificate.pdf",
+      url: "https://drive.google.com/file/d/1Z_9g8PFfRPmMKxWZwHlA4Bg1vk8MybB-/view?usp=sharing",
     },
     {
       name: "Udemy - React 18 Course - 2024",
@@ -371,7 +408,7 @@ const data = {
         },
       ],
       date: "Nov 2024",
-      url: "assets/certificates/React Certificate.pdf",
+      url: "https://drive.google.com/file/d/127E9c02PP94gqgI3xAO1jEFVko93y8WZ/view?usp=sharing",
     },
     {
       name: "HackerRank - Cascading Style Sheets(CSS)",
@@ -388,7 +425,7 @@ const data = {
         },
       ],
       date: "Nov 2022",
-      url: "assets/certificates/CSS Certificate.pdf",
+      url: "https://drive.google.com/file/d/1J4xRlZDd0Le8KBnfPALQdx8B946d2xlc/view?usp=sharing",
     },
     {
       name: "HackerRank - Java(Basic)",
@@ -405,7 +442,7 @@ const data = {
         },
       ],
       date: "Nov 2022",
-      url: "assets/certificates/Java Basic Certificate.pdf",
+      url: "https://drive.google.com/file/d/1oeacErCIFwbd0CAen-FVrm-MUFYsD7e6/view?usp=sharing",
     },
     {
       name: "HackerRank - Problem Solving(Basic)",
@@ -422,7 +459,7 @@ const data = {
         },
       ],
       date: "Nov 2022",
-      url: "assets/certificates/Problem Solving Certificate.pdf",
+      url: "https://drive.google.com/file/d/1QW1RiQTPZIq-6NHaIR07cGd9y1t2ah02/view?usp=sharing",
     },
   ],
   experience: [
