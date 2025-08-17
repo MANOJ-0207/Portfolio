@@ -95,7 +95,7 @@ const data = {
       },
       {
         title: "C Programming Language",
-        src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+        src: "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg",
         alt: "C",
       },
       {
@@ -206,6 +206,12 @@ const data = {
         alt: "PostgreSQL",
       },
       {
+        title: "Swagger - API Documentation Tool",
+        src: "https://raw.githubusercontent.com/swagger-api/swagger-ui/master/dist/favicon-32x32.png",
+        alt: "Swagger",
+      },
+
+      {
         title: "Generative AI - Prompt Engineering, AI-assisted Productivity",
         src: "assets/images/Generative AI.png",
         alt: "Generative AI",
@@ -246,7 +252,7 @@ const data = {
           title: "PostgreSQL - Advanced Relational Database",
           src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
           alt: "PostgreSQL",
-        }
+        },
       ],
       date: "May 2025",
       url: "https://drive.google.com/file/d/1T51Kcx4_xqp88JrgMAlzFMZ8eywqHXBq/view?usp=sharing",
@@ -557,7 +563,7 @@ const data = {
         "https://upload.wikimedia.org/wikipedia/commons/7/7c/Kaggle_logo.png",
       tooltip: "Kaggle",
     },
-    
+
     {
       name: "LinkedIn",
       url: "https://www.linkedin.com/in/manoj0207/",
