@@ -513,13 +513,13 @@ const data = {
   socials: [
     {
       name: "Email",
-      url: "https://mail.google.com/mail/?view=cm&to=manojkumar02072003@gmail.com",
+      url: "https://mail.google.com/mail/?view=cm&to=manojkumar272003@gmail.com",
       imgSrc: "https://img.icons8.com/ios-filled/50/4e88ff/apple-mail.png",
       tooltip: "Email",
     },
     {
       name: "Resume",
-      url: "https://your-resume-link.com/resume.pdf",
+      url: "https://drive.google.com/file/d/1UDg8zTu2J6uTBwFfD75u_V6DoRwA9dZy/view?usp=sharing",
       imgSrc: "https://img.icons8.com/fluency/48/resume.png",
       tooltip: "Resume",
     },
