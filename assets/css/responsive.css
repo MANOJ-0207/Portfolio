@@ -8,7 +8,7 @@
     background: #111;
     display: none;
     flex-direction: column;
-    left: 0;
+    left: -17px;
     position: absolute;
     right: 0;
     top: 100%;
@@ -216,14 +216,14 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 70%;
+    width: 65%;
     height: 100vh;
     background-color: var(--bg-color, #0d1117);
     opacity: 1;
     box-shadow: -2px 0 5px rgba(0,0,0,0.2);
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 0.7rem;
     transform: translateX(170%);
     transition: transform 0.3s ease;
     z-index: 999;
