@@ -475,11 +475,11 @@ const data = {
       organizationUrl: "https://www.ust.com/",
       duration: "August 2024 - Present",
       details: [
-        "Created Java utility classes for data fetching, JSON parsing in AEM stack.",
-        "Built and deployed training projects using Spring Boot.",
-        "Developed scalable REST APIs with Spring MVC and Spring Data JPA.",
-        "Implemented pagination, sorting, and database interactions efficiently.",
-        "Integrated JWT authentication for securing APIs.",
+        "Implemented Spring Boot features using Spring MVC and JPA for backend services.",
+        "Designed pagination and lightweight DTOs to optimize list endpoints and improve client interactions.",
+        "Integrated JWT-based authentication with secure password handling for user access.",
+        "Developed unit and integration tests to strengthen service reliability and support QA validation.",
+        "Worked on microservice communication using OpenFeign and Eureka, applying retry and circuit-breaker patterns.",
       ],
     },
     {
@@ -489,10 +489,10 @@ const data = {
         "https://www.linkedin.com/company/ustglobal-moonraft/?originalSubdomain=in",
       duration: "August 2023 - July 2024",
       details: [
-        "Trained in HTML, CSS, and JavaScript with practical assignments and built small frontend components.",
-        "Developed Java Servlets integrated with AEM.",
-        "Created Groovy scripts to automate repository modifications.",
-        "Enhanced skills in Java and web development.",
+        "Built UI components using HTML, CSS, and React for AEM-integrated pages.",
+        "Developed Java Servlets for structured content fetching and transformation in AEM.",
+        "Authored Groovy scripts to automate JCR updates and content migrations.",
+        "Created JSON parsing and transformation utilities in Java to support content processing.",
       ],
     },
     {
@@ -501,13 +501,15 @@ const data = {
       organizationUrl: "https://kce.ac.in/",
       duration: "Nov 2020 - May 2024",
       details: [
-        "Studied core Computer Science subjects: OOPS, Database Systems, Operating Systems, and Computer Networks.",
-        "Achieved 1st place in an Karpagam institutional-level coding contest.",
+        "Studied core Computer Science subjects including OOPS, Database Systems, Operating Systems, and Computer Networks.",
+        "Achieved 1st place in an institutional-level coding contest at Karpagam.",
         "Maintained a strong academic performance with a CGPA of 8.9.",
         "Built a solid foundation in programming, problem-solving, and software development principles.",
       ],
     },
   ],
+
+
 
   // New socials section with social media links and profiles
   socials: [
