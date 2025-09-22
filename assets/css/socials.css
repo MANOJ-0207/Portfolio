@@ -62,7 +62,7 @@
   margin-top: 1.5rem;
 }
 
-.contact-details a {
+.contact-details a, .intro-achievements a {
   color: #58a6ff;
   text-decoration: none;
   transition: color 0.3s ease;
