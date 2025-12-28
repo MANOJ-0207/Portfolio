@@ -79,10 +79,21 @@ const data = {
         alt: "Kubernetes",
       },
       {
-        title: "Cloud Services - AWS, GCP, Azure",
-        src: "https://img.icons8.com/fluency/48/cloud.png",
-        alt: "Cloud Services",
+        title: "AWS - Cloud Computing Platform",
+        src: "https://www.padok.fr/hubfs/Website%202021/Illustrations/Aws-padok.png",
+        alt: "AWS",
       },
+      {
+        title: "Jenkins - CI/CD Pipeline Tool",
+        src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg",
+        alt: "Jenkins",
+      },
+      {
+        title: "GitHub Actions - CI/CD Automation",
+        src: "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fexplore%2Fmaster%2Ftopics%2Factions%2Factions.png",
+        alt: "GitHub Actions",
+      },
+      
       {
         title: "Python - High-level programming language",
         src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
@@ -508,8 +519,6 @@ const data = {
       ],
     },
   ],
-
-
 
   // New socials section with social media links and profiles
   socials: [
