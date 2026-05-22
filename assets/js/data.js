@@ -530,7 +530,7 @@ const data = {
     },
     {
       name: "Resume",
-      url: "https://drive.google.com/file/d/1UDg8zTu2J6uTBwFfD75u_V6DoRwA9dZy/view?usp=sharing",
+      url: "https://drive.google.com/file/d/171JNEg0OeL524nhDyeaPZ6OkWruvgO2n/view?usp=drive_link",
       imgSrc: "https://img.icons8.com/fluency/48/resume.png",
       tooltip: "Resume",
     },
