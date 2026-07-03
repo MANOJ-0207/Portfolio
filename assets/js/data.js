@@ -93,7 +93,7 @@ const data = {
         src: "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fexplore%2Fmaster%2Ftopics%2Factions%2Factions.png",
         alt: "GitHub Actions",
       },
-      
+
       {
         title: "Python - High-level programming language",
         src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
@@ -135,6 +135,11 @@ const data = {
         alt: "Kaggle",
       },
       {
+        title: "Google ADK - AI Agent Development Kit",
+        src: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/google.svg",
+        alt: "Google ADK",
+      },
+      {
         title: "Dart - Programming Language for Flutter",
         src: "https://upload.wikimedia.org/wikipedia/commons/f/fe/Dart_programming_language_logo.svg",
         alt: "Dart",
@@ -143,6 +148,11 @@ const data = {
         title: "Flutter - UI Toolkit for Applications",
         src: "assets/images/Flutter.png",
         alt: "Flutter",
+      },
+      {
+        title: "React Native - Cross-Platform Mobile Framework",
+        src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+        alt: "React Native",
       },
       {
         title: "Node.js - JavaScript runtime",
@@ -231,6 +241,45 @@ const data = {
   },
 
   certificates: [
+    {
+      name: "Udemy - React Native",
+      icons: [
+        {
+          title: "React Native - Cross-Platform Mobile Framework",
+          src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+          alt: "React Native",
+        },
+        {
+          title: "React - JavaScript UI Library",
+          src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+          alt: "React",
+        },
+        {
+          title: "SQLite - Lightweight Relational Database",
+          src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg",
+          alt: "SQLite",
+        },
+      ],
+      date: "June 2026",
+      url: "https://drive.google.com/file/d/1cqMjajvkmtgX5uU1_6WdMviweEXRYrmT/view?usp=sharing",
+    },
+    {
+      name: "Udemy - Google ADK",
+      icons: [
+        {
+          title: "Google ADK - AI Agent Development Kit",
+          src: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/google.svg",
+          alt: "Google ADK",
+        },
+        {
+          title: "Python - High-level programming language",
+          src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+          alt: "Python",
+        },
+      ],
+      date: "June 2026",
+      url: "https://drive.google.com/file/d/1eCP79OHHmJgvAOa8lr3phOHCIM3hPy6F/view?usp=sharing",
+    },
     {
       name: "Udemy - SpringBoot - Apache Kafka",
       icons: [
@@ -628,7 +677,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       threshold: 0.6,
-    }
+    },
   );
 
   sections.forEach((section) => observer.observe(section));
@@ -746,10 +795,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const infoParaUK = document.getElementById("uk");
   const techLinksKK = document.querySelectorAll("#knownKnown .tech-icons div");
   const techLinksKU = document.querySelectorAll(
-    "#knownUnknown .tech-icons div"
+    "#knownUnknown .tech-icons div",
   );
   const techLinksUK = document.querySelectorAll(
-    "#unknownKnown .tech-icons div"
+    "#unknownKnown .tech-icons div",
   );
 
   addHoverEffect(techLinksKK, infoParaKK);
