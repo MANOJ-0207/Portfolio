@@ -1,6 +1,7 @@
 const data = {
   skills: {
-    knownKnown: [
+    knownKnown: 
+    [
       {
         title: "DSA - Data Structures and Algorithms",
         src: "assets/images/DSA.jpg",
