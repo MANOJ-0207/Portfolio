@@ -1,7 +1,6 @@
 const data = {
   skills: {
-    knownKnown: 
-    [
+    knownKnown: [
       {
         title: "DSA - Data Structures and Algorithms",
         src: "assets/images/DSA.jpg",
@@ -116,6 +115,12 @@ const data = {
         alt: "C++",
       },
       {
+        title:
+          "Kotlin - Modern Language for Android and Multiplatform Development",
+        src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg",
+        alt: "Kotlin",
+      },
+      {
         title: "Scikit-learn - ML Library in Python",
         src: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
         alt: "Scikit-learn",
@@ -154,6 +159,11 @@ const data = {
         title: "React Native - Cross-Platform Mobile Framework",
         src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
         alt: "React Native",
+      },
+      {
+        title: "Kotlin Multiplatform (KMP) - Share Code Across Android and iOS",
+        src: "https://api.iconify.design/lucide/monitor-smartphone.svg?color=%237F52FF",
+        alt: "Kotlin Multiplatform",
       },
       {
         title: "Node.js - JavaScript runtime",
@@ -242,6 +252,123 @@ const data = {
   },
 
   certificates: [
+    {
+      name: "Claude Certified Architect - Professional",
+      icons: [
+        {
+          title: "Anthropic Claude - Conversational AI Assistant",
+          src: "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@latest/icons/claude-color.svg",
+          alt: "Anthropic Claude",
+        },
+        {
+          title: "Claude Skills - Reusable Instructions for Specialized Tasks",
+          src: "https://api.iconify.design/lucide/wand-sparkles.svg?color=%23D97757",
+          alt: "Claude Skills",
+        },
+        {
+          title: "Claude Code - Agentic Coding Tool for the Terminal",
+          src: "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@latest/icons/claudecode-color.svg",
+          alt: "Claude Code",
+        },
+        {
+          title: "Claude Agent SDK - Framework for Building Custom AI Agents",
+          src: "https://api.iconify.design/lucide/bot.svg?color=%23D97757",
+          alt: "Claude Agent SDK",
+        },
+        {
+          title: "Claude Code Subagents - Specialized Delegated AI Assistants",
+          src: "https://api.iconify.design/lucide/network.svg?color=%23D97757",
+          alt: "Claude Code Subagents",
+        },
+        {
+          title:
+            "MCP - Model Context Protocol for Connecting AI to Tools and Data",
+          src: "https://cdn.simpleicons.org/modelcontextprotocol/D97757",
+          alt: "Model Context Protocol",
+        },
+      ],
+      date: "Oct 2026",
+      url: "https://drive.google.com/file/d/1pV6Y1GPOITXJqESWHcnh_kd7USKwZkHu/view?usp=drive_link",
+    },
+
+    {
+      name: "Claude Certified Developer - Foundations",
+      icons: [
+        {
+          title: "Anthropic Claude - Conversational AI Assistant",
+          src: "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@latest/icons/claude-color.svg",
+          alt: "Anthropic Claude",
+        },
+        {
+          title: "Claude Skills - Reusable Instructions for Specialized Tasks",
+          src: "https://api.iconify.design/lucide/wand-sparkles.svg?color=%23D97757",
+          alt: "Claude Skills",
+        },
+        {
+          title: "Claude Code - Agentic Coding Tool for the Terminal",
+          src: "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@latest/icons/claudecode-color.svg",
+          alt: "Claude Code",
+        },
+        {
+          title: "Claude Agent SDK - Framework for Building Custom AI Agents",
+          src: "https://api.iconify.design/lucide/bot.svg?color=%23D97757",
+          alt: "Claude Agent SDK",
+        },
+        {
+          title: "Claude Code Subagents - Specialized Delegated AI Assistants",
+          src: "https://api.iconify.design/lucide/network.svg?color=%23D97757",
+          alt: "Claude Code Subagents",
+        },
+      ],
+      date: "Oct 2026",
+      url: "https://drive.google.com/file/d/1p26usUYEVXLrp5aBLHbjIsK7HzpZAiEd/view?usp=drive_link",
+    },
+    {
+      name: "Claude Certified Associate - Foundations",
+      icons: [
+        {
+          title: "Anthropic Claude - Conversational AI Assistant",
+          src: "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@latest/icons/claude-color.svg",
+          alt: "Anthropic Claude",
+        },
+        {
+          title: "Claude Skills - Reusable Instructions for Specialized Tasks",
+          src: "https://api.iconify.design/lucide/wand-sparkles.svg?color=%23D97757",
+          alt: "Claude Skills",
+        },
+      ],
+      date: "Oct 2026",
+      url: "https://drive.google.com/file/d/1sEzy-ePZf_hPTNVSwpNCVMf5-33oPS-a/view?usp=drive_link",
+    },
+    {
+      name: "Udemy - Kotlin Multiplatform",
+      icons: [
+        {
+          title:
+            "Kotlin - Modern Language for Android and Multiplatform Development",
+          src: "https://cdn.simpleicons.org/kotlin/7F52FF",
+          alt: "Kotlin",
+        },
+        {
+          title:
+            "Kotlin Multiplatform (KMP) - Share Code Across Android and iOS",
+          src: "https://api.iconify.design/lucide/monitor-smartphone.svg?color=%237F52FF",
+          alt: "Kotlin Multiplatform",
+        },
+        {
+          title: "SQLDelight - Type-Safe Kotlin APIs from SQL",
+          src: "https://api.iconify.design/lucide/database.svg?color=%237F52FF",
+          alt: "SQLDelight",
+        },
+        {
+          title: "Jetpack Compose - Modern Declarative UI Toolkit",
+          src: "https://cdn.simpleicons.org/jetpackcompose/4285F4",
+          alt: "Jetpack Compose",
+        },
+      ],
+      date: "Oct 2026",
+      url: "https://drive.google.com/file/d/1_nNnQuyBjckhtX8VhmWkLtpLozP-LfiB/view?usp=drive_link",
+    },
     {
       name: "Udemy - React Native",
       icons: [
